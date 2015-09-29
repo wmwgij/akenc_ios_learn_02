@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Third-->
         <scene sceneID="N6F-Hf-c1L">
             <objects>
-                <viewController id="uIZ-b8-EXf" sceneMemberID="viewController">
+                <viewController id="uIZ-b8-EXf" userLabel="Third" customClass="ThirdViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4I9-s7-zNz"/>
                         <viewControllerLayoutGuide type="bottom" id="V47-Bs-wgg"/>
@@ -25,7 +25,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="xdH-DQ-9KU"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="first" id="xdH-DQ-9KU" userLabel="Third"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4y-Lq-keZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

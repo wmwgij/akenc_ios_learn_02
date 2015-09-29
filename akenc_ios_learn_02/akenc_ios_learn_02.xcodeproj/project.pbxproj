@@ -16,6 +16,7 @@
 		E439F2C31BB920C1003904B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E439F2C11BB920C1003904B9 /* LaunchScreen.storyboard */; };
 		E439F2CE1BB920C1003904B9 /* akenc_ios_learn_02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F2CD1BB920C1003904B9 /* akenc_ios_learn_02Tests.m */; };
 		E439F2D91BB920C1003904B9 /* akenc_ios_learn_02UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E439F2D81BB920C1003904B9 /* akenc_ios_learn_02UITests.m */; };
+		E4C117491BBA6AC600ADC739 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C117481BBA6AC600ADC739 /* ThirdViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E439F2D41BB920C1003904B9 /* akenc_ios_learn_02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = akenc_ios_learn_02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E439F2D81BB920C1003904B9 /* akenc_ios_learn_02UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = akenc_ios_learn_02UITests.m; sourceTree = "<group>"; };
 		E439F2DA1BB920C1003904B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C117471BBA6ABA00ADC739 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E4C117481BBA6AC600ADC739 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E439F2B71BB920C1003904B9 /* FirstViewController.m */,
 				E439F2B91BB920C1003904B9 /* SecondViewController.h */,
 				E439F2BA1BB920C1003904B9 /* SecondViewController.m */,
+				E4C117471BBA6ABA00ADC739 /* ThirdViewController.h */,
+				E4C117481BBA6AC600ADC739 /* ThirdViewController.m */,
 				E439F2BC1BB920C1003904B9 /* Main.storyboard */,
 				E439F2BF1BB920C1003904B9 /* Assets.xcassets */,
 				E439F2C11BB920C1003904B9 /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				E439F2B51BB920C1003904B9 /* AppDelegate.m in Sources */,
 				E439F2B81BB920C1003904B9 /* FirstViewController.m in Sources */,
 				E439F2B21BB920C1003904B9 /* main.m in Sources */,
+				E4C117491BBA6AC600ADC739 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +510,7 @@
 				E439F2DF1BB920C1003904B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E439F2E01BB920C1003904B9 /* Build configuration list for PBXNativeTarget "akenc_ios_learn_02Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				E439F2E21BB920C1003904B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E439F2E31BB920C1003904B9 /* Build configuration list for PBXNativeTarget "akenc_ios_learn_02UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				E439F2E51BB920C1003904B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
